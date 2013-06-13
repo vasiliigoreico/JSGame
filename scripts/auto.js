@@ -1,4 +1,4 @@
-//TODO:checkup GenerateBadIndex and GenerateSuperIndex functions! Last
+//TODO:checkup GenerateBadIndex and GenerateSuperIndex functions! Las
 var str,
 	rowsNumb, //number of rows of the table
 	collsNumb, //number of colls of the table

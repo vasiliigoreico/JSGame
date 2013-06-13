@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>New</title>
+        <link href="css/reset.css" type="text/css" rel="stylesheet" />
+        <link href="css/style.css" type="text/css" rel="stylesheet" />
+    </head>
+    <body>
+        <div id="content">
+			<div id='preview'>
+				<h1>Hello, now you can generate needed game table</h1>
+        		<h1>Just input parametrs and press "GENERATE"</h1>
+        		<form method="post" action=#>
+        			<label for='rows-i'>Input number of rows
+        				<br />(max 15)
+        			</label>
+        			<input type='text' id='rows-i' />
+        			
+        			<label for='colls-i'>Input number of colls
+        				<br />(max 15)	
+        			</label>
+        			<input type='text' id='colls-i' />
+        			
+        			<label for='badS-i'>Input number of bad cells</label>
+        			<input type='text' id='badS-i' />
+        			
+        			<label for='goodS-i'>Input number of good cells</label>
+        			<input type='text' id='goodS-i' />
+        			
+        			<button id='generate'>GENERATE</button>
+        			<button id='generate-default'>GENERATE DEFAULT</button>
+        		</form>
+				
+			</div>
+        </div> 	
+        <script src='scripts/auto.js'></script>
+    </body>
+</html>

@@ -1,0 +1,138 @@
+.cf:before,
+.cf:after {
+    content: "";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    -ms-zoom: 1;
+    zoom: 1;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+h1{
+	margin: 0;
+	text-align: center;
+	font-size: 24px;
+	color: black;
+}
+.dashboard{
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+.table-wr{
+	margin: 0 auto;
+	margin-top: 15px;
+}
+.dashboard td>span{
+	color: black;
+	text-decoration: none;
+	font-size: 16px;
+	display: block;
+	height: 100%;
+	width: 100%;
+	line-height: 32px;
+}
+.plus-step{
+	background-color: green;
+}
+.minus-step{
+	background-color: red;
+}
+#current-pos{
+	background-image: url('../img/error-ico.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.dashboard td{
+	border: 1px solid gray;
+	text-align: center;
+	width: 35px;
+}
+.dashboard tr:nth-child(odd) td:nth-child(odd){
+	background: #5886d4;
+}
+.dashboard tr:nth-child(even) td:nth-child(even){
+	background: #5886d4;
+}
+.dashboard tr:nth-child(odd) td:nth-child(odd) span{
+	color: white;
+}
+.dashboard tr:nth-child(even) td:nth-child(even) span{
+	color: white;
+}
+#content .dashboard tr td.badCell{
+	background: red;
+	color: white;
+}
+#content .dashboard #chip span{
+	background: green;
+}
+#content .dashboard tr td.badCell span{
+	color: white;
+}
+#content .dashboard tr td.superCell span{
+	background: blue;
+	color: white;
+}
+.manage-steps{
+	width: 350px;
+	margin: 0 auto;
+	margin-top: 20px;
+	display: none;
+}
+#drop-bones,
+#move{
+	padding: 0;
+	width: 80px;
+	height: 30px;
+	text-align: center;
+	font-size: 16px;
+	float: left;
+}
+#drop-results{
+	float: right;
+	width: 150px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 16px;
+	color: black;
+	text-align: right;
+	padding-right: 20px;
+}
+
+#preview form{
+	width: 250px;
+	margin: 0 auto;
+}
+#preview label{
+	display: block;
+	font-size: 14px;
+	color: black;
+	margin: 5px 0;
+}
+
+#generate,
+#generate-default{
+	width: 200px;
+	padding: 0;
+	margin: 0;
+	margin-top: 15px;
+	display: block;
+}
+.enjoy-title{
+	margin-bottom: 10px;
+}
+
+
